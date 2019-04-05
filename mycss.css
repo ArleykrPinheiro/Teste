@@ -1,0 +1,53 @@
+/* This demo stylesheet ONLY styles the nav menu. */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 6px;
+    position:absolute;
+    bottom:0;
+    width: 98%;
+    overflow:hidden;
+
+}
+
+
+#head-image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+}
+#head-texto {
+    position: absolute; 
+    top: -10px; 
+    margin: 10px;
+    left: 0; 
+    
+}
